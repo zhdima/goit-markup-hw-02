@@ -6,21 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="The site of the company Web Studio" />
     <title>Web Studio</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Header -->
     <header>
       <nav>
-        <a class="nav-logo" href="./index.html" lang="en">WebStudio</a>
-        <ul class="nav-list">
-          <li><a href="">Студія</a></li>
-          <li><a href="">Портфоліо</a></li>
-          <li><a href="">Контакти</a></li>
+        <a class="plink logo nav-logo" href="./index.html" lang="en">
+          <span class="accentlogo">Web</span>Studio</a
+        >
+        <ul class="plist nav-list">
+          <li><a class="plink" href="">Студія</a></li>
+          <li><a class="plink" href="">Портфоліо</a></li>
+          <li><a class="plink" href="">Контакти</a></li>
         </ul>
       </nav>
-      <ul class="header-contacts-list">
-        <li lang="en"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="plist header-contacts-list">
+        <li lang="en"><a class="plink" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li><a class="plink" href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
     </header>
 
@@ -34,7 +45,7 @@
       <!-- Переваги -->
       <section class="advs">
         <h2 class="advs-h" hidden>Наші переваги</h2>
-        <ul class="advs-list">
+        <ul class="plist advs-list">
           <li class="advs-item">
             <h3 class="advs-item-h">Увага до деталей</h3>
             <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
@@ -56,7 +67,7 @@
       <!-- Чим займаємось -->
       <section class="whatdo">
         <h2>Чим ми займаємося</h2>
-        <ul class="whatdo-list">
+        <ul class="plist whatdo-list">
           <li class="whatdo-item"
             ><img
               src="./images/whatdo/img-1.jpg"
@@ -79,7 +90,7 @@
       <!-- Наша команда -->
       <section class="ourteam">
         <h2>Наша команда</h2>
-        <ul class="ourteam-list">
+        <ul class="plist ourteam-list">
           <li class="ourteam-item">
             <img
               src="./images/ourteam/img-1.jpg"
@@ -126,11 +137,14 @@
 
     <!-- Footer -->
     <footer>
-      <a class="contacts-logo" href="./index.html" lang="en">WebStudio</a>
+      <a class="plink logo footer-logo" href="./index.html" lang="en">
+        <span class="accentlogo">Web</span>Studio</a
+      >
       <address>
-        <ul class="footer-contacts-list">
+        <ul class="plist footer-contacts-list">
           <li>
             <a
+              class="plink"
               href="https://goo.gl/maps/AcqfuWZzsQ2Tnh1x8"
               target="_blank"
               rel="noopener noreferrer"
@@ -138,8 +152,10 @@
               м. Київ, пр-т Лесі Українки, 26
             </a>
           </li>
-          <li lang="en"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li lang="en"
+            ><a class="plink" href="mailto:info@devstudio.com">info@devstudio.com</a></li
+          >
+          <li><a class="plink" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
       </address>
     </footer>
