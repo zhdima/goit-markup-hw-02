@@ -24,14 +24,20 @@
           <span class="accentlogo">Web</span>Studio</a
         >
         <ul class="plist nav-list">
-          <li><a class="plink" href="">Студія</a></li>
-          <li><a class="plink" href="">Портфоліо</a></li>
-          <li><a class="plink" href="">Контакти</a></li>
+          <li><a class="plink nav-link current" href="./index.html">Студія</a></li>
+          <li><a class="plink nav-link" href="./portfolio.html">Портфоліо</a></li>
+          <li><a class="plink nav-link" href="">Контакти</a></li>
         </ul>
       </nav>
       <ul class="plist header-contacts-list">
-        <li lang="en"><a class="plink" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="plink" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <li lang="en"
+          ><a class="plink header-contacts-link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          ></li
+        >
+        <li
+          ><a class="plink header-contacts-link" href="tel:+380961111111">+38 096 111 11 11</a></li
+        >
       </ul>
     </header>
 
@@ -39,37 +45,46 @@
     <main>
       <!-- Hero section -->
       <section class="hero">
-        <h1>Ефективні рішення для вашого бізнесу</h1>
-        <button type="button">Замовити послугу</button>
+        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+        <button class="hero-btn" type="button">Замовити послугу</button>
       </section>
       <!-- Переваги -->
       <section class="advs">
-        <h2 class="advs-h" hidden>Наші переваги</h2>
+        <h2 class="advs-title visually-hidden">Наші переваги</h2>
         <ul class="plist advs-list">
           <li class="advs-item">
-            <h3 class="advs-item-h">Увага до деталей</h3>
-            <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+            <h3 class="advs-item-title">Увага до деталей</h3>
+            <p class="advs-item-text"
+              >Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p
+            >
           </li>
           <li class="advs-item">
-            <h3 class="advs-item-h">Пунктуальність</h3>
-            <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+            <h3 class="advs-item-title">Пунктуальність</h3>
+            <p class="advs-item-text"
+              >Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p
+            >
           </li>
           <li class="advs-item">
-            <h3 class="advs-item-h">Планування</h3>
-            <p>Так само консультація з широким активом значною мірою зумовлює.</p>
+            <h3 class="advs-item-title">Планування</h3>
+            <p class="advs-item-text"
+              >Так само консультація з широким активом значною мірою зумовлює.</p
+            >
           </li>
           <li class="advs-item">
-            <h3 class="advs-item-h">Сучасні технології</h3>
-            <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+            <h3 class="advs-item-title">Сучасні технології</h3>
+            <p class="advs-item-text"
+              >Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p
+            >
           </li>
         </ul>
       </section>
       <!-- Чим займаємось -->
       <section class="whatdo">
-        <h2>Чим ми займаємося</h2>
+        <h2 class="whatdo-title">Чим ми займаємося</h2>
         <ul class="plist whatdo-list">
           <li class="whatdo-item"
             ><img
+              class="whatdo-item-img"
               src="./images/whatdo/img-1.jpg"
               alt="Створення веб-сайтів"
               width="370"
@@ -77,22 +92,29 @@
           /></li>
           <li class="whatdo-item"
             ><img
+              class="whatdo-item-img"
               src="./images/whatdo/img-2.jpg"
               alt="Створення мобільних додатків"
               width="370"
               height="294"
           /></li>
           <li class="whatdo-item"
-            ><img src="./images/whatdo/img-3.jpg" alt="Адаптивний дизайн" width="370" height="294"
+            ><img
+              class="whatdo-item-img"
+              src="./images/whatdo/img-3.jpg"
+              alt="Адаптивний дизайн"
+              width="370"
+              height="294"
           /></li>
         </ul>
       </section>
       <!-- Наша команда -->
       <section class="ourteam">
-        <h2>Наша команда</h2>
+        <h2 class="ourteam-title">Наша команда</h2>
         <ul class="plist ourteam-list">
           <li class="ourteam-item">
             <img
+              class="ourteam-photo"
               src="./images/ourteam/img-1.jpg"
               alt="Фото Ігор Дем'яненко"
               width="270"
@@ -103,6 +125,7 @@
           </li>
           <li class="ourteam-item">
             <img
+              class="ourteam-photo"
               src="./images/ourteam/img-2.jpg"
               alt="Фото Ольга Рєпіна"
               width="270"
@@ -113,6 +136,7 @@
           </li>
           <li class="ourteam-item">
             <img
+              class="ourteam-photo"
               src="./images/ourteam/img-3.jpg"
               alt="Фото Микола Тарасов"
               width="270"
@@ -123,6 +147,7 @@
           </li>
           <li class="ourteam-item">
             <img
+              class="ourteam-photo"
               src="./images/ourteam/img-4.jpg"
               alt="Фото Михайло Єрмаков"
               width="270"
@@ -136,15 +161,15 @@
     </main>
 
     <!-- Footer -->
-    <footer>
+    <footer class="footer">
       <a class="plink logo footer-logo" href="./index.html" lang="en">
         <span class="accentlogo">Web</span>Studio</a
       >
-      <address>
+      <address class="address">
         <ul class="plist footer-contacts-list">
           <li>
             <a
-              class="plink"
+              class="plink footer-contacts-link geoaddr"
               href="https://goo.gl/maps/AcqfuWZzsQ2Tnh1x8"
               target="_blank"
               rel="noopener noreferrer"
@@ -153,9 +178,15 @@
             </a>
           </li>
           <li lang="en"
-            ><a class="plink" href="mailto:info@devstudio.com">info@devstudio.com</a></li
+            ><a class="plink footer-contacts-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            ></li
           >
-          <li><a class="plink" href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li
+            ><a class="plink footer-contacts-link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            ></li
+          >
         </ul>
       </address>
     </footer>
