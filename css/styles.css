@@ -20,6 +20,7 @@ body {
   background-color: var(--main-bg-color);
 
   font-family: var(--main-font);
+  letter-spacing: 0.03em;
 }
 
 /* Hidden elements */
@@ -54,6 +55,9 @@ body {
 
 .logo {
   font-family: var(--logo-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
 }
 
 .nav-logo {
@@ -75,6 +79,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
 }
 
 .nav-link {
@@ -110,6 +115,7 @@ body {
   font-size: 44px;
   line-height: calc(60 / 44);
   text-align: center;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
@@ -119,6 +125,7 @@ body {
   font-size: 16px;
   line-height: calc(30 / 16);
   text-align: center;
+  letter-spacing: 0.06em;
   color: var(--inverse-text-color);
   background-color: var(--accent-color);
   cursor: pointer;
